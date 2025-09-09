@@ -6,7 +6,7 @@ My goal here was to reproduce the exact same project setup in vairious systems t
 
 # Setup
 
-1. Install [nix pacakge manager](https://nixos.org/download/) if you are using linux or macOS. You can do either multi-user or single user installation here. If you're already using nixos then skip this step. If you are using windows, then spin up any linux wsl and install nix package manager there. Sanity Check: If you are encountering any post installation problem please refer to this [ChatGPT Conversation](https://chatgpt.com/share/68bf93da-f03c-800c-afc4-94a7a959fb41)  
+1. Install [nix pacakge manager](https://nixos.org/download/) if you are using linux or macOS. You can do either multi-user or single user installation here. If you're already using nixos then skip this step. If you are using windows, then spin up any linux wsl and install nix package manager there. Sanity Check: to ensure nix is working properly please refer to this [ChatGPT Conversation](https://chatgpt.com/share/68bf93da-f03c-800c-afc4-94a7a959fb41)  
 2. If you don't have flakes enabled, then you have to do this step. It's only one time setup. If you did multi-user installation in step-1, then create /etc/nix/nix.conf file or if you did signle user install in step 1 then create ~/.config/nix/nix.conf and add these to the file:
     ```nix
     build-users-group = nixbld
