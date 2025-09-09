@@ -31,13 +31,12 @@
 
 
 # nix develop -> Drops into a devshell
-    devShells.${system}.default = {
+    devShells.${system}.default = pkgs.mkShell {
       packages = [
         py
         pkgs.python311Packages.numpy
         pkgs.uv
       ];
     };
-
   };
 }
