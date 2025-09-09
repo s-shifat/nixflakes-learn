@@ -1,6 +1,6 @@
 # nixflakes-learn
 
-I tried to learn nix flakes. This repo basically has a very minimal flask server.
+I tried to learn [nix flakes](https://nixos.wiki/wiki/Flakes). This repo basically has a very minimal flask server.
 
 My goal here was to reproduce the exact same project setup in vairious systems that has nix installed.
 
